@@ -1,7 +1,6 @@
 ## Nouns for classes
 - Players
 - Questions
-- Game
 
 
 ## Role of each class
@@ -13,9 +12,4 @@ Player
 Questions
 - This class will contain the logic for the questions
 - Need to be initialized with questions
-- Methods like questions, which question they are on, answers
-
-Game
-- This class will hold the game logic
-- Needs to be intalized with something
-- Methods like 
+- Methods like checking the answer
