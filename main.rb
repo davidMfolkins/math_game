@@ -36,12 +36,12 @@ def play_game(player_one, player_two)
   until player_one.hearts == 0 || player_two.hearts == 0
     @turn += 1
     if @turn.even?
-      puts "current score #{player_one.player_name} #{player_one.hearts}/3 and #{player_two.player_name} #{player_two.hearts}/3"
+      puts "current hearts: #{player_one.player_name} #{player_one.hearts}/3 and #{player_two.player_name} #{player_two.hearts}/3"
       puts "#{player_one.player_name}, it's your turn!"
       puts "----- NEW QUESTION -----"
       play(player_one)
     else
-      puts "current score #{player_one.player_name} #{player_one.hearts}/3 and #{player_two.player_name} #{player_two.hearts}/3"
+      puts "current hearts: #{player_one.player_name} #{player_one.hearts}/3 and #{player_two.player_name} #{player_two.hearts}/3"
       puts "#{player_two.player_name} it's your turn!"
       play(player_two)
     end
